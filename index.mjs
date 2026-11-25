@@ -1,4 +1,4 @@
-import { check, count, error, readProjectFile, text, verdict, z } from '@cairul/plugin-kit';
+import { check, count, error, readProjectFile, text, verdict, z } from '@cairul/pdk';
 
 const impact = z.enum(['minor', 'moderate', 'serious', 'critical']);
 const reportSchema = z.object({
